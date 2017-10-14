@@ -9,7 +9,7 @@ select
 	p.height, 
 	p.weight, 
 	pa.preferred_foot, 
-	pa.date as ValidAsOf 
+	pa.date as valid_as_of 
 from Player p 
 inner join Player_Attributes pa 
 on p.id = pa.id;
