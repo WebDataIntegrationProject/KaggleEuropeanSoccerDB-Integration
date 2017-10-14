@@ -3,7 +3,7 @@
 
 -- players
 select 
-	p.id, 
+	p.player_api_id as id, 
 	p.player_name, 
 	p.birthday, 
 	p.height, 
